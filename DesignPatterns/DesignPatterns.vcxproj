@@ -119,6 +119,9 @@
     <ClCompile Include="Observer.h" />
     <ClCompile Include="Strategy.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Factory.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
