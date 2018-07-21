@@ -1,7 +1,8 @@
 #include <iostream>
 #include "Strategy.h"
 #include "Observer.h"
-#include "Factory.h"
+#include "FactoryMethod.h"
+#include "AbstractFactory.h"
 
 void printOptions()
 {
@@ -9,6 +10,7 @@ void printOptions()
     std::cout << "1. Strategy Demo" << std::endl;
     std::cout << "2. Observer Demo" << std::endl;
     std::cout << "3. Factory Method Demo" << std::endl;
+    std::cout << "4. Abstract Factory Demo" << std::endl;
     std::cout << "0. Exit" << std::endl;
 }
 
@@ -31,6 +33,9 @@ int main()
             break;
         case 3:
             FactoryDemo();
+            break;
+        case 4:
+            AbstractFactoryDemo();
             break;
         }
         std::cout << std::endl;

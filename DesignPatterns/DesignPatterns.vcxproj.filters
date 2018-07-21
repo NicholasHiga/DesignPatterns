@@ -26,7 +26,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Factory.h">
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

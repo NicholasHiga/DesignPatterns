@@ -120,7 +120,8 @@
     <ClCompile Include="Strategy.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Factory.h" />
+    <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="FactoryMethod.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
