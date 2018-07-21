@@ -1,4 +1,8 @@
 #pragma once
+// The strategy pattern defines a family of algorithms, encapsulates each one
+// and makes them interchangable. Strategy lets the algorithm vary independantly
+// from clients that use it.
+
 #include <iostream>
 
 class IQuackStrategy

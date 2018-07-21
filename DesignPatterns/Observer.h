@@ -1,4 +1,8 @@
 #pragma once
+// The observer pattern defines a one to many dependancy between objects so that
+// when one object changes state, all its dependants are updated and notified
+// automatically.
+
 #include <vector>
 #include <functional>
 #include <iostream>
