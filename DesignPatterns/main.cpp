@@ -3,6 +3,7 @@
 #include "Observer.h"
 #include "FactoryMethod.h"
 #include "AbstractFactory.h"
+#include "Command.h"
 
 void printOptions()
 {
@@ -11,6 +12,7 @@ void printOptions()
     std::cout << "2. Observer Demo" << std::endl;
     std::cout << "3. Factory Method Demo" << std::endl;
     std::cout << "4. Abstract Factory Demo" << std::endl;
+    std::cout << "5. Command Demo" << std::endl;
     std::cout << "0. Exit" << std::endl;
 }
 
@@ -36,6 +38,9 @@ int main()
             break;
         case 4:
             AbstractFactoryDemo();
+            break;
+        case 5:
+            CommandDemo();
             break;
         }
         std::cout << std::endl;
