@@ -4,6 +4,7 @@
 #include "FactoryMethod.h"
 #include "AbstractFactory.h"
 #include "Command.h"
+#include "Proxy.h"
 
 void printOptions()
 {
@@ -13,12 +14,15 @@ void printOptions()
     std::cout << "3. Factory Method Demo" << std::endl;
     std::cout << "4. Abstract Factory Demo" << std::endl;
     std::cout << "5. Command Demo" << std::endl;
+    std::cout << "6. Virtual Proxy Demo" << std::endl;
     std::cout << "0. Exit" << std::endl;
 }
 
 int main()
 {
-    int decision;
+    int decision = 0;
+    std::cout << "Note that Singleton, Facade, and " <<
+        "Adapter patterns have no demos." << std::endl;
     do
     {
         printOptions();
@@ -41,6 +45,9 @@ int main()
             break;
         case 5:
             CommandDemo();
+            break;
+        case 6:
+            VirtualProxyDemo();
             break;
         }
         std::cout << std::endl;
