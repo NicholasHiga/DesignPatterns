@@ -193,6 +193,7 @@ inline void CommandDemo()
     std::cout << "Enter 1 to move the car left." << std::endl;
     std::cout << "Enter 2 to lock the car doors." << std::endl;
     std::cout << "Enter 3 to undo the last action." << std::endl;
+    std::cout << "Enter -1 to exit." << std::endl;
 
     int temp = 0;
     do
@@ -200,7 +201,7 @@ inline void CommandDemo()
         std::cout << std::endl;
         std::cin >> temp;
 
-        if (temp >= 0 && temp <= 3)
+        if (temp >= -1 && temp <= 3)
         {
             switch (temp)
             {
