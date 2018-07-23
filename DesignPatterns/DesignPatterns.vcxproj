@@ -122,6 +122,7 @@
   <ItemGroup>
     <ClInclude Include="AbstractFactory.h" />
     <ClInclude Include="Adapter.h" />
+    <ClInclude Include="Bridge.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="Facade.h" />
     <ClInclude Include="FactoryMethod.h" />

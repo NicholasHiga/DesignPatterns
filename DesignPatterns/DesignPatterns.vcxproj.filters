@@ -47,5 +47,8 @@
     <ClInclude Include="Proxy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Bridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

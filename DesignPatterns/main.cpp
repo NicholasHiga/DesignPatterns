@@ -5,6 +5,7 @@
 #include "AbstractFactory.h"
 #include "Command.h"
 #include "Proxy.h"
+#include "Bridge.h"
 
 void printOptions()
 {
@@ -15,6 +16,7 @@ void printOptions()
     std::cout << "4. Abstract Factory Demo" << std::endl;
     std::cout << "5. Command Demo" << std::endl;
     std::cout << "6. Virtual Proxy Demo" << std::endl;
+    std::cout << "7. Bridge Demo" << std::endl;
     std::cout << "0. Exit" << std::endl;
 }
 
@@ -48,6 +50,9 @@ int main()
             break;
         case 6:
             VirtualProxyDemo();
+            break;
+        case 7:
+            BridgeDemo();
             break;
         }
         std::cout << std::endl;
